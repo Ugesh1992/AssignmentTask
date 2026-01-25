@@ -44,18 +44,14 @@ print(groceries)
 print(groceries.get('eggss',2222))
 
 
-k=["Ram","Shyam",23,244,1000]
-for i in k:
-    print(i)
-
-
-x='APPLE'
-for i in x:
-    print(i)
-
 
 
 
 num = int(input("Enter a Number : "))
 # true-expression if condition else false-expression
 print("Even") if num % 2 == 0 else print("Odd")
+
+
+scores=[2,4,56,78,34,122,654,45]
+high = max(scores)
+print(f"Highest score is : {high}")
