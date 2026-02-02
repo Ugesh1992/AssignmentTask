@@ -1,7 +1,7 @@
 #Module 4
 #Task 1: Calculate Factorial Using a Function
 def factorial(n):
-    if n == 0 or n == 1:   # base case
+    if n == 0 or n == 1: 
         return 1
     return n * factorial(n - 1)
 
@@ -20,3 +20,4 @@ sine = math.sin(num)
 print(f" Square root of {num} is : {sqrt}")
 print(f" Logarithm  of {num} is : {log}")
 print(f" Sine  of {num} is : {sine}")
+
